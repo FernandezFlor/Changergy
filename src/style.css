@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+    scroll-padding-top: 90px; /* height of sticky header */
+}
+nav{
+    grid-area: nav;
+    background-color: rgb(44, 44, 44);
+}
+
+.nav-link{
+    color:rgb(255, 255, 255);
+}
+
+.nav-link:hover{
+    color:rgb(73, 255, 79);
+    font-weight: bold;
+}
+
+ 
+.dropdown-item{
+    color: rgb(255, 255, 255);
+}
+
+.dropdown-item:hover{
+    color:rgb(73, 255, 79);
+    font-weight: bold;
+}
+
+
+main{
+    grid-area: main;
+    
+}
+
+h1{
+    margin-top: 90px;
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+footer{
+    display: grid;
+    grid-area: footer;
+    bottom: 0;
+    background-color: rgb(44, 44, 44);
+
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 20vh,60vh,20vh;
+    grid-template-areas: 
+    "nav"
+    "main"
+    "footer";
+    
+}
+
+/*---------*/
+
+#espacio{
+    margin-top: 6%;
+}
+#renovables{
+    margin-top: 8%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+/* resolucion de imagen en index*/
+.img-1{
+    width: 400px;
+    height: 150px;
+    object-fit: cover;
+    border-right: 2px solid white;
+}
+
+.img-2{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.img-3{
+    width: 603px;
+    height: 300px;
+    object-fit: cover;
+    border-top: 4px solid white;
+
+}
+
+.img-collapse{
+    width: 550px;
+    height:600px;
+    object-fit: fill;
+}
+
+.btn-collapse{
+    background-color: rgb(44, 44, 44);
+    border-color: rgb(44, 44, 44);
+}
+
+.btn-collapse:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+
+
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    background-color: black;
+    border-color: black;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 1, 0.5);
+}
+
+.btn-collapse:active{
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 1, 0.5);
+}
+
+.close-collapse{
+    background-color: rgb(255, 255, 255);
+    border-color: rgba(44, 44, 44, 0.237);
+    color: black;
+    width: 307px;
+    
+}
+
+
+@media screen and (max-width:620px) {
+
+    .img-1{
+        width: 200px;
+        height: 75px;
+        object-fit: cover;
+        border-right: 2px solid white;
+    }
+    .img-2{
+        width: 100px;
+        height: 75px;
+        object-fit: cover;
+    }
+    .img-3{
+        width: 301px;
+        height: 150px;
+        object-fit: cover;
+        border-top: 4px solid white;
+    
+    }
+    
+}
