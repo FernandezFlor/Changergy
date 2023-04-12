@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         
-        <link rel="stylesheet" href="src/style.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <nav id="navbar-example2" class="navbar px-3 mb-3 navbar-expand-md container-fluid fixed-top">
@@ -32,7 +32,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#scrollspyHeading4">Energía hidráulica</a>
               </li>
-              <ul class="dropdown-menu aaaa" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li class="nav-item"><a class="dropdown-item nav-link" href="#scrollspyHeading1">Energía renovable</a></li>
                 <li class="nav-item"><a class="dropdown-item nav-link" href="#scrollspyHeading2">Energía eólica</a></li>
                 <li class="nav-item"><a class="dropdown-item nav-link" href="#scrollspyHeading3">Energía solar</a></li>
@@ -45,7 +45,8 @@
         <br>
         <main>
             <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-                <h1 class="text-center" id="scrollspyHeading1">Energías renovables</h1>
+              <!--Energías renovables-->
+              <h1 id="scrollspyHeading1" class="text-center titulo">Energías renovables</h1>
                 <p>Las energías renovables son un factor clave en la búsqueda de una forma más sostenible y respetuosa con el medio 
                   ambiente de producir energía. Estas fuentes de energía son consideradas como infinitas en términos de disponibilidad a 
                   largo plazo, ya que se encuentran ampliamente distribuidas y no se agotan con el uso. Además, el uso de energías renovables 
@@ -85,11 +86,14 @@
                       Para producir energía eólica, se necesitan turbinas de viento que utilizan las corrientes de aire para mover sus aspas, 
                       convirtiendo así la energía mecánica en energía eléctrica. La energía generada por las turbinas eólicas se transmite a la 
                       red eléctrica y se distribuye a los hogares y edificios cercanos. Además, la energía eólica se puede almacenar en baterías para su uso futuro.
+                      <br>
+                      En conclusión, la energía eólica es una forma limpia, sostenible y rentable de producir energía eléctrica. Su uso 
+                      puede reducir significativamente la dependencia de los combustibles fósiles y disminuir las emisiones de gases de efecto 
+                      invernadero. Con el rápido desarrollo del sector de la energía renovable, la energía eólica seguirá desempeñando un papel 
+                      importante en el futuro del suministro de energía mundial.
                     </p>
-                    <div class="text-center">
-                      <img class="img-thumbnail img-fluid img-collapse" src="img/eolica/partes.png" alt="energía eólica">
-                    </div>
                     <p class="text-center">
+                      <br>
                       <button class="btn btn-dark close-collapse text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-eolica" aria-expanded="true" aria-controls="collapse-eolica">
                         x
                       </button>
@@ -100,7 +104,7 @@
                 <!--Ends Energía eólica-->
 
                 <!--Energía solar-->
-                <h3 id="scrollspyHeading3" class="text-center">Energía solar</h3>
+                <h3 id="scrollspyHeading3" class="text-center titulo">Energía solar</h3>
                 <p>La energía solar es una de las fuentes de energía renovable más eficientes y respetuosas con el medio ambiente. 
                   Su funcionamiento se basa en la captación de la radiación solar a través de paneles solares y su posterior conversión en electricidad, 
                   calor o movimiento.
@@ -131,10 +135,13 @@
                       la luz del sol en electricidad de corriente continua. Esta electricidad se convierte luego en corriente alterna mediante un 
                       inversor y se puede utilizar de inmediato o almacenar en baterías para su uso posterior. Además, la energía solar también se puede 
                       utilizar para calentar agua o para generar movimiento en dispositivos mecánicos.  
+                      <br>
+                      Entre los beneficios más destacados de la energía solar se encuentran la reducción de la dependencia de los combustibles fósiles y la 
+                      generación de empleo en el sector de las energías renovables. Además, la instalación de paneles solares en los hogares y las empresas 
+                      puede suponer un importante ahorro en la factura de la luz y contribuir a la reducción de la huella de carbono.  En resumen, la energía 
+                      solar es una alternativa energética sostenible y económica que ofrece numerosos beneficios para el planeta y para la economía humana.
                     </p>
-                    <div class="text-center">
-                      <img class="img-thumbnail img-fluid img-collapse" src="img/solar/partes2.png" alt="energia eólica">
-                    </div>
+                    <br>
                     <p class="text-center">
                     <button class="btn btn-dark close-collapse text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-solar" aria-expanded="true" aria-controls="collapse-solar">
                       x
@@ -149,10 +156,10 @@
                 <h3 id="scrollspyHeading4" class="text-center">Energía hidráulica</h3>
                 <p>
                   La energía hidráulica es una fuente de energía renovable que se obtiene a partir del flujo de agua en ríos, mareas, corrientes y cascadas, 
-                  y que se utiliza para generar electricidad. Esta fuente de energía ha sido utilizada durante siglos como fuente de energía para molinos y otros 
+                  y que se utiliza para generar electricidad. Esta energía ha sido utilizada durante siglos como fuente de energía para molinos y otros 
                   usos mecánicos, pero ha sido en el siglo XX cuando se ha convertido en una de las formas más importantes de generación de electricidad.
                   <br>
-                  La energía hidráulica es una fuente de energía limpia y renovable que puede ser utilizada para generar electricidad sin emisiones 
+                  Esta fuente puede ser utilizada para generar electricidad sin emisiones 
                   de gases de efecto invernadero. Además, la energía hidráulica es una fuente de energía muy fiable, ya que depende de la disponibilidad de agua 
                   que se puede almacenar y regular para su uso en momentos de alta demanda de electricidad. A pesar de sus muchas ventajas, la energía hidráulica 
                   aún es poco explotada, y su uso se concentra en países con gran potencial hidroeléctrico.
@@ -180,10 +187,9 @@
                       que permiten regular el flujo de agua y aprovechar la energía potencial del agua almacenada. Los beneficios de la energía hidráulica 
                       incluyen la producción de energía limpia y renovable, la regulación del flujo de agua y la prevención de inundaciones, además de la 
                       creación de empleos en la construcción y operación de centrales eléctricas.
+
                     </p>
-                    <div class="text-center">
-                      <img class="img-thumbnail img-fluid img-collapse" src="img/hidraulica/partes2.png" alt="energía eólica">
-                    </div>
+                    <br>
                     <p class="text-center">
                       <button class="btn btn-dark close-collapse text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-hidraulica" aria-expanded="true" aria-controls="collapseExample">
                         x

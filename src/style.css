@@ -7,7 +7,7 @@
 }
 
 html{
-    scroll-padding-top: 90px; /* height of sticky header */
+    scroll-padding-top: 92px /* height of sticky header */
 }
 nav{
     grid-area: nav;
@@ -39,8 +39,9 @@ main{
     
 }
 
+
 h1{
-    margin-top: 90px;
+    padding-top:1.3em;
 }
 
 p{
@@ -71,16 +72,7 @@ footer{
 
 /*---------*/
 
-#espacio{
-    margin-top: 6%;
-}
-#renovables{
-    margin-top: 8%;
-}
 
-.w-60{
-    width: 60%;
-}
 
 /* resolucion de imagen en index*/
 .img-1{
@@ -120,8 +112,6 @@ footer{
     border-color: black;
     color: white;
 }
-
-
 
 
 .btn-check:focus+.btn-primary, .btn-primary:focus {
