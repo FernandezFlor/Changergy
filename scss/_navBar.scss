@@ -1,0 +1,19 @@
+nav{
+    background-color: $mainColor;
+    
+    .nav-link{
+        font-family: $contentFont;
+        color: $white;
+        &:hover{
+            color: $secondaryColor;
+        }
+    }
+    .dropdown-item{
+        color: $white;
+        &:hover{
+            color: $secondaryColor;
+            font-weight: bold;
+        }
+    }
+}
+
